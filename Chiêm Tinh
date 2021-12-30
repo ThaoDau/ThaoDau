@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	
+	char tenban[50];
+	char tencrush[50];
+	int tb,tc;
+	printf("\tGiai ma tinh yeu:\n");
+	printf("Nhap ten cua ban:\n");fflush(stdin);gets(tenban);
+	printf("Nhap ten cua nguoi ma ban crush:\n");
+	fflush(stdin);gets(tencrush);
+	printf("Thang sinh cua ban:\n");
+	scanf("%d",&tb);
+	printf("Thang sinh cua crush:\n");
+	scanf("%d",&tc);
+	
+	printf("--------------\n");
+	printf("Ten ban: %s\n",tenban);
+	printf("Ten crush ban:%s\n",tencrush);
+	printf("Tao se noi cho ca the gioi biet crush may :>\n");	
+
+	
+
+	
+	return 0;
+}
